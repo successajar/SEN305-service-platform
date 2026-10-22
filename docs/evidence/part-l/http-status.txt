@@ -1,0 +1,6 @@
+/ -> 200
+/about/ -> 200
+/contact/ -> 200
+/workflow/ -> 200
+/static/core/css/styles.css -> 200
+/does-not-exist/ -> 404
