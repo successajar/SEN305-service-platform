@@ -123,3 +123,28 @@ nav a:focus {
         padding: 1rem 0;
     }
 }
+
+/* Active navigation link */
+nav a[aria-current="page"] {
+    color: var(--brand);
+    font-weight: 700;
+    border-bottom: 2px solid var(--brand);
+    padding-bottom: 4px;
+}
+
+/* Visible keyboard focus */
+nav a:focus-visible {
+    outline: 3px solid var(--brand);
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+/* Contact and workflow sections */
+.contact-details,
+.workflow-list {
+    margin-bottom: 3rem;
+}
+
+.workflow-list li {
+    padding: 0.5rem 0;
+}
