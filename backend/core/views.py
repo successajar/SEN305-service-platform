@@ -17,7 +17,6 @@ def about(request):
         "Coordinator",
         "Technician",
         "Administrator",
-        
     ]
     return render(
         request,
