@@ -3,6 +3,14 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite database
+db.sqlite3
+
 # C extensions
 *.so
 
@@ -219,8 +227,7 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-.env.*
-!.env.example
+
 .vscode/
 .idea/
 node_modules/
